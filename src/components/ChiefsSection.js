@@ -15,10 +15,10 @@ export default function ChiefsSection(){
             cuisine: "Japanese",
         },
         {
-            name: "Erich Maria",
+            name: "Ranveer Brar",
             img: "/img/top-chiefs/img_3.jpg",
             recipesCount: "13",
-            cuisine: "Italian",
+            cuisine: "Indian",
         },
         {
             name: "Chris Brown",
@@ -36,12 +36,12 @@ export default function ChiefsSection(){
             name: "Ben Affleck",
             img: "/img/top-chiefs/img_6.jpg",
             recipesCount: "04",
-            cuisine: "Indian"
+            cuisine: "Gotham"
         }
     ]
     return (
         <div className="section chiefs">
-            <h1 className="title">Our Top Chiefs</h1>
+            <h1 className="title">Our Top Chefs</h1>
             <div className="top-chiefs-container">
                 {/* <ChiefCard />
                 <ChiefCard />

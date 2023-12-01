@@ -25,6 +25,7 @@ export default function Navbar(){
             icon: faCog
         },
         {
+            
             name: "Login",
             path: "/login",
             icon: faCog

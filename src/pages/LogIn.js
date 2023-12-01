@@ -30,7 +30,7 @@ export default function LogIn() {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-          const response = await axios.post('http://localhost:8000/login', {username,password,});
+          const response = await axios.post('https://recipehub-server.vercel.app/login', {username,password,});
           console.log('Login successful:', response.data);
 
           if (response.data.success) {

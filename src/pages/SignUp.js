@@ -31,7 +31,7 @@ export default function SignUp() {
     const handleSignup = async (e) => {
         e.preventDefault();
         try {
-          const response = await axios.post('http://localhost:8000/signup', {username,email,password,});
+          const response = await axios.post('https://recipehub-server.vercel.app/signup', {username,email,password,});
           console.log('SignUp successful:', response.data);
 
           if (response.data.success) {
